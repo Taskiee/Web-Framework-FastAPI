@@ -15,7 +15,7 @@ app.add_middleware(
 
 # Define CSV file path
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-CSV_FILE = os.path.join(BASE_DIR, "students.csv")
+CSV_FILE = os.path.join(BASE_DIR, "q-fastapi.csv")
 
 # Load data from CSV
 students = []
